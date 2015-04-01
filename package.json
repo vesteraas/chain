@@ -1,5 +1,5 @@
 {
-  "name": "chain",
+  "name": "chain-of-command",
   "version": "0.0.1",
   "description": "A NodeJS module for chaining together commands using streams",
   "main": "index.js",

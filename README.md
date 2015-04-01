@@ -1,12 +1,28 @@
+chain-of-command
+================
+
+## Background
 Many commands can be piped together on the command line, to accomplish a task that the single programs can't do alone.  There are several advantages to this.  For one, the generation of intermediate files between steps can be reduced, or even eliminated totally.
 
-This is accomplished using standard streams.  Consult the wikipedia article for more details (http://en.wikipedia.org/wiki/Standard_streams).
+This is accomplished using standard streams.  Read the [wikipedia article on the subject](http://en.wikipedia.org/wiki/Standard_streams) for more details.
 
-chain is a module that simplifies the task of executing commands from node.  You can take the result of a command, a file, or a stream as the input.  You can write the output to a file, or return it as a stream.
+**chain-of-command** is a [Node](http://nodejs.org/) module that simplifies the task of executing commands from Node.  You can take the result of a command, a file, or a stream as the input.  You can write the output to a file, or return it as a stream.
 
-Example:
+## Author
+  - Werner Vesterås <wvesteraas@gmail.com>
+
+## Installation
+As with any Node module, use the [Node Package Manager](https://www.npmjs.com/) to install it:
+
+```bash
+$ npm install chain-of-command
+```
+
+## Usage
 
 ```javascript
+var Chain = require('chain-of-command');
+
 var chain = new Chain();
 
 chain
@@ -75,3 +91,7 @@ app.get('/', function (req, res) {
     stream.pipe(res);
 });
 ```
+
+## Examples
+
+See the [examples](https://github.com/vesteraas/chain/tree/master/examples) directory.
