@@ -1,7 +1,7 @@
 {
   "name": "chain",
   "version": "0.0.1",
-  "description": "Chain together child processes using streams",
+  "description": "Chain together commands using streams",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "child_process",
     "streams"
   ],
-  "author": "Werner Vesteraas <wvesteraas@gmail.com>",
+  "author": "Werner Vesterås <wvesteraas@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "underscore": "*"
