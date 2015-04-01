@@ -1,0 +1,7 @@
+total 24
+drwxr-xr-x   6 werner  staff  204 Apr  1 14:42 .
+drwxr-xr-x  10 werner  staff  340 Apr  1 14:42 ..
+-rw-r--r--   1 werner  staff  166 Apr  1 14:42 example1.js
+-rw-r--r--   1 werner  staff  413 Apr  1 14:37 example2.js
+-rw-r--r--   1 werner  staff    0 Apr  1 14:42 test.txt
+-rw-r--r--   1 werner  staff  330 Apr  1 14:42 test2.txt

@@ -1,7 +1,7 @@
 {
   "name": "chain",
   "version": "0.0.1",
-  "description": "Chain together commands using streams",
+  "description": "A NodeJS module for chaining together commands using streams",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,15 @@
     "child_process",
     "streams"
   ],
-  "author": "Werner Vesterås <wvesteraas@gmail.com>",
-  "license": "ISC",
+  "author": "Werner Vesteraas <wvesteraas@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vesteraas/chain"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  },
   "dependencies": {
     "underscore": "*"
   }
